@@ -4,4 +4,5 @@ object Die
 object DiceGame
 
 Player "1" -- "2" Die : Rolls
+Player "1" -- "1" DiceGame : Plays
 @enduml
