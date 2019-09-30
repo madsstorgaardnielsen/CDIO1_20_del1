@@ -32,7 +32,7 @@ public class Main {
         //turene går på skift, spiller1 har de lige ture, spiller2 har de ulige ture.
         HvemStarter startKast = new HvemStarter();
 
-        //sætter tur til hhv. 2 eller 3 vha. førsteKast metoden.
+        //sætter tur til hhv. 2 eller 3 via resultatet fra førsteKast metoden.
         tur = startKast.førsteKast();
 
         //Et loop der kører indtil en af spillerne rammer 40 point.
@@ -115,7 +115,7 @@ public class Main {
                     System.out.println("Ekstratur!");
                 } else
                     tur++;
-                
+
                 //hvis spiller2 rammer 40 point eller derover bliver løkken afbrudt
                 if (spiller2point >= 40) {
                     break;
