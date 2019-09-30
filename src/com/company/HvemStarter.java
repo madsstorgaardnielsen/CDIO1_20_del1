@@ -28,10 +28,10 @@ class HvemStarter {
 
         //Det højeste slag bliver fundet, og enten spiller 1 eller spiller 2 starter, alt efter om tur går en op eller ej.
         if (startslag1 > startslag2) {
-            System.out.println("Spiller 1 starter!");
+            System.out.println("\nSpiller 1 starter!");
         } else {
             tur++;
-            System.out.println("Spiller 2 starter!");
+            System.out.println("\nSpiller 2 starter!");
         }
 
         //Turs nye værdi bliver returneret så den rigtige spiller får lov at starte.

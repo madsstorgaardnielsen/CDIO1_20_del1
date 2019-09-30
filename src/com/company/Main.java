@@ -4,14 +4,20 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        //Sætter spiller1 og spiller2's point til en begyndelses værdi på 0
         int spiller1point = 0, spiller2point = 0;
 
         //tur variablen holder styr på hvis tur det er, hvis den er lige er det spiller1's tur, hvis ulige er det spiller2's tur
         int tur = 0;
         Scanner sc = new Scanner(System.in);
         System.out.println("Velkommen til terningspillet");
-        System.out.println("- Et terning spil for to spillere, regler er følgende: første spiller til at ramme 40 point vinder!");
-        System.out.println("- Tryk på enter for at slå med terningerne");
+        System.out.println("- Et terning spil for to spillere, regler er følgende: ");
+        System.out.println("- første spiller til at ramme 40 point vinder.");
+        System.out.println("- Hvis der bliver slået et par 1, mister man alle sine point, men får en ekstra tur.");
+        System.out.println("- Hvis man slår et dobbeltslag, får man en ekstra tur.");
+        System.out.println("- I skal slå om hvem der starter spillet.");
+        System.out.println("- Tryk enter for at slå med terningerne.\n");
         System.out.println("- God fornøjelse!\n\n");
 
         //indtast navnene på de to spillere, de bliver gemt i variablerne spiller1 og spiller2
@@ -20,7 +26,7 @@ public class Main {
         System.out.print("Indtast navnet på Spiller 2: ");
         String spiller2 = sc.next().toString();
 
-        System.out.print("\n---I skal slå om hvem der starter, tast enter for at slå---");
+        System.out.print("\nTryk enter for at slå om hvem det starter!");
 
         //Venter på tasteinput fra brugeren inden der bliver slået om hvem der starter spillet.
         try {
