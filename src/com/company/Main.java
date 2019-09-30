@@ -29,13 +29,12 @@ public class  Main {
 
         //Finder ud af hvem der starter spillet vha. HvemStarter metoden
         HvemStarter starter = new HvemStarter();
-
         tur = starter.kør();
-
         System.out.println("Værdier af tur: "+tur+" hvis 2 = player1, 3 = player2");
 
 
-        //Spillet starter og kører i et loop indtil nogen rammer 40 point.
+        //Løkke spillet starter og kører i et loop indtil nogen rammer 40 point.
+        //spiller 1's tur.
         while (true) {
             if (tur % 2 == 0) {
 
