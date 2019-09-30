@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db4ffbb-1c7e-4738-9767-db1bb1822575" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TerningeSpil/com/company/HvemStarter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TerningeSpil/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TerningeSpil/com/company/TerningeKast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HvemStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HvemStarter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Spillere.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Tur.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +89,7 @@
       <workItem from="1569834617924" duration="213000" />
       <workItem from="1569834850027" duration="12970000" />
       <workItem from="1569855758858" duration="1160000" />
-      <workItem from="1569861489023" duration="1652000" />
+      <workItem from="1569861489023" duration="1927000" />
     </task>
     <servers />
   </component>
@@ -116,21 +108,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>133</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

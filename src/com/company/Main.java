@@ -76,11 +76,11 @@ public class Main {
                     tur++;
 
                 //hvis spiller1 rammer 40 point eller derover bliver løkken afbrudt
-                if (spiller1point >= 1000) {
+                if (spiller1point >= 40) {
                     break;
                 }
 
-                
+
                 //spiller 2's tur
             }
             if (tur % 2 != 0) {
@@ -121,7 +121,7 @@ public class Main {
 
 
                 //hvis spiller2 rammer 40 point eller derover bliver løkken afbrudt
-                if (spiller2point >= 1000) {
+                if (spiller2point >= 40) {
                     break;
                 }
             }
