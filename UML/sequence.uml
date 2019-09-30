@@ -1,0 +1,12 @@
+@startuml
+title CDIO 01 Projekt Sequence Diagram
+actor player as p
+'actor player2 as p2
+p -> DiceGame : play()
+DiceGame -> Die1 : terningKast()
+DiceGame -> Die1 : requestScore()
+DiceGame -> Die2 : terningKast()
+DiceGame -> Die2 : requestScore()
+Die1 --> DiceGame : returnScore()
+Die2 --> DiceGame : returnScore()
+@enduml
