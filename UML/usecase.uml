@@ -1,0 +1,10 @@
+@startuml
+title CDIO 01 Projekt Usecase Diagram
+left to right direction
+actor player1 as p1
+actor player2 as p2
+rectangle Dicegame{
+	p1 -- (die) : roll
+	(die) -- p2 : roll
+}
+@enduml

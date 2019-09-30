@@ -1,0 +1,7 @@
+@startuml
+object Player
+object Die
+object DiceGame
+
+Player "1" -- "2" Die : Rolls
+@enduml
