@@ -12,7 +12,6 @@ public class  Main {
         System.out.println("- Tast enter for at slå med terningerne");
         System.out.println("- God fornøjelse!\n\n");
 
-
         //indtast de to spilleres navne
         System.out.print("Indtast navnet på spiller 1: ");
         String spiller1=sc.next().toString();
@@ -27,15 +26,14 @@ public class  Main {
         } catch (Exception e) {
         }
 
-        //Finder ud af hvem der starter spillet vha. HvemStarter metoden
+        //Finder ud af hvem der starter spillet vha. HvemStarter metoden, sætter tur til 2/3.
         HvemStarter starter = new HvemStarter();
-
         tur = starter.kør();
 
-        System.out.println("Værdier af tur: "+tur+" hvis 2 = player1, 3 = player2");
+        //print til at se om tur kommer med den rigtige værdi
+        //System.out.println("Værdier af tur: "+tur+" hvis 2 = player1, 3 = player2");
 
-
-        //Spillet starter og kører i et loop indtil nogen rammer 40 point.
+        //Spillet starter og kører i et loop indtil en spiller rammer 40 point.
         while (true) {
             if (tur % 2 == 0) {
 
