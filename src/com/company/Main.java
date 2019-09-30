@@ -70,7 +70,6 @@ public class Main {
 
                 //hvis de 2 slag er ens bliver tur ikke sat en op og spiller1 får en ekstra tur
                 if (slag1 == slag2) {
-                    tur = tur;
                     System.out.println("Ekstratur!");
                 } else
                     tur++;
@@ -114,7 +113,6 @@ public class Main {
 
                 //hvis de 2 slag er ens bliver tur ikke sat en op og spiller2 får en ekstra tur
                 if (slag1 == slag2) {
-                    tur = tur;
                     System.out.println("Ekstratur!");
                 } else
                     tur++;
