@@ -54,7 +54,6 @@ public class Main {
                 int slag1 = spiller1slag1.getØjne();
                 int slag2 = spiller1slag2.getØjne();
 
-
                 //ligger de to slag sammen, og ligger dem så til spiller1's point
                 int sum1 = slag1 + slag2;
                 spiller1point = sum1 + spiller1point;
@@ -116,8 +115,7 @@ public class Main {
                     System.out.println("Ekstratur!");
                 } else
                     tur++;
-
-
+                
                 //hvis spiller2 rammer 40 point eller derover bliver løkken afbrudt
                 if (spiller2point >= 40) {
                     break;
