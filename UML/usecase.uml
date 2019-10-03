@@ -1,10 +1,15 @@
 @startuml
 title CDIO 01 Projekt Usecase Diagram
 left to right direction
-actor player1 as p1
-actor player2 as p2
+actor player as p
 rectangle Dicegame{
-	p1 -- (die) : roll
-	(die) -- p2 : roll
+	p - (vælgNavn)
+	p -- (kastTerning)
+	(kastTerning) .. (vælgStarter)
+	(kastTerning) .. (vindMedDobbel12)
+	(kastTerning) .. (afslutSpilMedToSeksere)
+	(kastTerning) .. (fåPoints)
+	(kastTerning) .. (nulstilPoints)
+	(kastTerning) .. (fåEkstraSlag)
 }
 @enduml

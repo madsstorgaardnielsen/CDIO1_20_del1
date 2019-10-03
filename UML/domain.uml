@@ -1,8 +1,23 @@
 @startuml
-object Player
-object Die
+object Player{
+	name
+	number
+	points
+}
+object Die{
+	faceValue
+}
 object DiceGame
+object Winner{
+	totalPoints
+}
+'object Looser
 
-Player "1" -- "2" Die : Rolls
-Player "1" -- "1" DiceGame : Plays
+Player "1" -> "2" Die : Rolls
+Player "1" --> "1" DiceGame : Plays
+DiceGame "1" -> "1" Winner : Gets
+'Die "2" --> "1" Winner : GivePoints
+Die "2" --> "1" Player : GivePoints
+Player "1" --> "1" Winner : Becomes
+'Player "1" --> "1" Looser: Becomes
 @enduml
