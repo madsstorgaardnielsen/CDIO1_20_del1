@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1db4ffbb-1c7e-4738-9767-db1bb1822575" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-=======
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e2147dec-2770-4c37-9cfc-f42ff26117b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/20_del1/com/company/HvemStarter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/20_del1/com/company/HvemStarter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HvemStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HvemStarter.java" afterDir="false" />
->>>>>>> dev
->>>>>>> master
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,27 +11,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1RTBt7Y6xk70Jvd1VikgwTr5IEn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,19 +31,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="20_del1" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OtherMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.OtherMain" />
       <module name="20_del1" />
       <extension name="coverage">
         <pattern>
@@ -83,7 +48,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.OtherMain" />
       </list>
     </recent_temporary>
   </component>
@@ -92,46 +56,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1db4ffbb-1c7e-4738-9767-db1bb1822575" name="Default Changelist" comment="" />
-      <created>1569681416246</created>
+      <changelist id="e2147dec-2770-4c37-9cfc-f42ff26117b6" name="Default Changelist" comment="" />
+      <created>1570191679624</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569681416246</updated>
-      <workItem from="1569681420465" duration="8114000" />
-      <workItem from="1569834617924" duration="213000" />
-<<<<<<< HEAD
-      <workItem from="1569834850027" duration="13691000" />
-=======
-      <workItem from="1569834850027" duration="12970000" />
-      <workItem from="1569855758858" duration="1160000" />
-      <workItem from="1569861489023" duration="6631000" />
-      <workItem from="1569928722705" duration="427000" />
-      <workItem from="1570108162227" duration="69000" />
-      <workItem from="1570110396743" duration="321000" />
-      <workItem from="1570115494796" duration="294000" />
-<<<<<<< HEAD
-      <workItem from="1570186784139" duration="36000" />
-=======
->>>>>>> dev
->>>>>>> master
+      <updated>1570191679624</updated>
+      <workItem from="1570191682115" duration="2751000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-<<<<<<< HEAD
             <State />
-=======
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
->>>>>>> dev
           </value>
         </entry>
       </map>
