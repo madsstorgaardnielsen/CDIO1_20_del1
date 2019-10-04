@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        //Sætter spiller1 og spiller2's point til en begyndelses værdi på 0
+        //Sætter spiller1 og spiller2's point til en begyndelses værdi på 0.
         int spiller1point = 0, spiller2point = 0;
 
         //tur variablen holder styr på hvis tur det er, hvis den er lige er det spiller1's tur, hvis ulige er det spiller2's tur
