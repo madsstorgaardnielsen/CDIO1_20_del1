@@ -60,7 +60,7 @@ public class Main {
                 int slag1 = spiller1slag1.getØjne();
                 int slag2 = spiller1slag2.getØjne();
 
-                //ligger de to slag sammen, og ligger dem så til spiller1's point
+                //ligger de to slag sammen, og ligger dem så til spiller1's point.
                 int sum1 = slag1 + slag2;
                 spiller1point = sum1 + spiller1point;
 
