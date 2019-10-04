@@ -1,5 +1,4 @@
 package com.company;
-
 class HvemStarter {
 
     //opretter to terningekast vha. TerningeKast klassen
@@ -8,9 +7,7 @@ class HvemStarter {
 
     //Løkke der finder ud af hvilken en af spillerne der får lov at kaste først
     public int førsteKast() {
-        int tur = 2;
-        int startslag1;
-        int startslag2;
+        int tur = 2, startslag1,startslag2;;
 
         //Terningerne kastes og gemmes i startslag1 og startslag2
         do {
@@ -33,7 +30,6 @@ class HvemStarter {
             tur++;
             System.out.println("\nSpiller 2 starter!");
         }
-
         //Turs nye værdi bliver returneret så den rigtige spiller får lov at starte.
         return tur;
     }
