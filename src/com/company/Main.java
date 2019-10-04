@@ -42,7 +42,7 @@ public class Main {
         tur = startKast.førsteKast();
 
         //Et loop der kører indtil en af spillerne rammer 40 point.
-        //spiller 1's tur.
+        //Spiller 1's tur.
         while (true) {
             if (tur % 2 == 0) {
 

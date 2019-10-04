@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db4ffbb-1c7e-4738-9767-db1bb1822575" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/20_del1/com/company/HvemStarter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/20_del1/com/company/HvemStarter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HvemStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HvemStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +94,7 @@
       <workItem from="1570108162227" duration="69000" />
       <workItem from="1570110396743" duration="321000" />
       <workItem from="1570115494796" duration="294000" />
+      <workItem from="1570186784139" duration="36000" />
     </task>
     <servers />
   </component>
