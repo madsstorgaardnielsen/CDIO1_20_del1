@@ -1,20 +1,12 @@
 @startuml
-title CDIO 01 Projekt Sequence Diagram
 actor player as p
 
 p -> DiceGame : chooseName(name)
 p -> DiceGame : førsteKast()
-p -> DiceGame : hvemStarter()
-p <-- DiceGame : hvemStarter(førsteKast())
+DiceGame -> DiceGame : hvemStarter()
 loop points < 40
-	p -> DiceGame : spillerSlag()
-	p -> DiceGame : getØjne()
+	p -> DiceGame : startKast.getØjne()
 	p <-- DiceGame : showPoints()
 end
-loop vind med 2 seksere
-	p -> DiceGame : spillerSlag()
-	p -> DiceGame : spørgOmJegHarVundet()
-	p <-- DiceGame : vindMedToSeksere(True/False)
-end
-p <-- DiceGame : spilAfsluttet()
+	p <-- DiceGame : printVinder()
 @enduml
