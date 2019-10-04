@@ -20,6 +20,13 @@ public class Main {
         System.out.println("- Tryk enter for at slå med terningerne.\n");
         System.out.println("- God fornøjelse!\n\n");
 
+<<<<<<< HEAD
+        //indtast de to spilleres navne
+        System.out.print("Indtast navnet på spiller 1: ");
+        String spiller1=sc.next().toString();
+        System.out.print("Indtast navnet på spiller 2: ");
+        String spiller2=sc.next().toString();
+=======
         //indtast navnene på de to spillere, de bliver gemt i variablerne spiller1 og spiller2
         System.out.print("Indtast navnet på Spiller 1: ");
         String spiller1 = sc.next().toString();
@@ -27,6 +34,7 @@ public class Main {
         String spiller2 = sc.next().toString();
 
         System.out.print("\nTryk enter for at slå om hvem det starter!");
+>>>>>>> dev
 
         //Venter på tasteinput fra brugeren inden der bliver slået om hvem der starter spillet.
         try {
@@ -34,6 +42,16 @@ public class Main {
         } catch (Exception e) {
         }
 
+<<<<<<< HEAD
+        //Finder ud af hvem der starter spillet vha. HvemStarter metoden, sætter tur til 2/3.
+        HvemStarter starter = new HvemStarter();
+        tur = starter.kør();
+
+        //print til at se om tur kommer med den rigtige værdi
+        //System.out.println("Værdier af tur: "+tur+" hvis 2 = player1, 3 = player2");
+
+        //Spillet starter og kører i et loop indtil en spiller rammer 40 point.
+=======
         //Der bliver slået om hvilken spiller der starter vha. førsteKast i HvemStarter klassen
         //turene går på skift, spiller1 har de lige ture, spiller2 har de ulige ture.
         HvemStarter startKast = new HvemStarter();
@@ -42,7 +60,12 @@ public class Main {
         tur = startKast.førsteKast();
 
         //Et loop der kører indtil en af spillerne rammer 40 point.
+<<<<<<< HEAD
         //Spiller 1's tur.
+=======
+        //spiller 1's tur.
+>>>>>>> dev
+>>>>>>> master
         while (true) {
             if (tur % 2 == 0) {
 
