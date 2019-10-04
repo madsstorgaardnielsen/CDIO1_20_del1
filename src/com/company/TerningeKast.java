@@ -1,8 +1,8 @@
 package com.company;
 
-public class TerningeKast {
+class TerningeKast {
 
-    public int getØjne() {
+    int getØjne() {
 
         //faceValue får en værdi alt efter hvilken værdi math.random finder frem til
         int faceValue = (int) (Math.random() * 6 + 1);
