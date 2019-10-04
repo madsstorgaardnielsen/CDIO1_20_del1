@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #README
 =======
 # CDIO projekt
@@ -13,4 +13,4 @@ Gå ind på [overleaf](https://www.overleaf.com/project/5d9245ec8a5a520001fe8912
 ## UML
 Jeg har lavet nogle simple uml diagrammer i PlantUML. Man kan se er overblik over dem under [UML siden](UML/ "UML siden")
 
->>>>>>> dev
+
