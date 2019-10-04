@@ -6,7 +6,7 @@ class HvemStarter {
     TerningeKast spiller2slag = new TerningeKast();
 
     //Løkke der finder ud af hvilken en af spillerne der får lov at kaste først
-    public int førsteKast() {
+    int førsteKast() {
         int tur = 2, startslag1,startslag2;;
 
         //Terningerne kastes og gemmes i startslag1 og startslag2
