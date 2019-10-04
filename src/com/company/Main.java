@@ -71,7 +71,7 @@ public class Main {
 
                 //Udskriver spiller1's slag og spiller1's samlede point
                 System.out.println(spiller1 + " slår " + slag1 + " og " + slag2);
-                System.out.println(spiller1 + " har nu: " + spiller1point + " point!\n");
+                System.out.println(spiller1 + " har nu: " + spiller1point + " point! \n");
 
                 //hvis de 2 slag er ens bliver tur ikke sat en op og spiller1 får en ekstra tur
                 if (slag1 == slag2) {
